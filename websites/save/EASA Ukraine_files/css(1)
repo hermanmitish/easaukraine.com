@@ -1,0 +1,552 @@
+
+
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Roman-Web.woff2?domain=easaukraine.com&md5=GswE0zNy1rO8z1Tfx8KAUA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Roman-Web.woff?domain=easaukraine.com&md5=9ZcNJQhT8JimL2i7S7hgMg") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Roman Italic-Web.woff2?domain=easaukraine.com&md5=nkh04qn8wM1Jok3FabwGwA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Roman Italic-Web.woff?domain=easaukraine.com&md5=xLn1sZs0WKuamYC5usdm-w") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Italic-Web.woff2?domain=easaukraine.com&md5=IKEl6dUx5CqXbKbkkx5LyQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Italic-Web.woff?domain=easaukraine.com&md5=1z-SNR9AJx1Z-QkhkgzK6A") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Semibold-Web.woff2?domain=easaukraine.com&md5=sG-ZBul9W9A788m95BofSg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Semibold-Web.woff?domain=easaukraine.com&md5=OSn_mH1DhwI1GEQEa2rczg") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Semibold Italic-Web.woff2?domain=easaukraine.com&md5=vQXLtv0ifT4OmEaovHPBxA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Semibold Italic-Web.woff?domain=easaukraine.com&md5=W0jtkhPK4x1OyzGx56frSw") format("woff");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Bold-Web.woff2?domain=easaukraine.com&md5=NEJeoFpnnSKS-xfrjh-zeg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Bold-Web.woff?domain=easaukraine.com&md5=qcA2uNZtSrx0bXdYoeKe2A") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Bold Italic-Web.woff2?domain=easaukraine.com&md5=X0qbex6sM7xD7F5I0Npo_A") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Bold Italic-Web.woff?domain=easaukraine.com&md5=rMNmLZ0cCZZpA5xK6XnktQ") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Fat-Web.woff2?domain=easaukraine.com&md5=2ORyRSxeV3hOwFF8BkjeTg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Fat-Web.woff?domain=easaukraine.com&md5=jK10ZmWuIAZr7dZ_HWdMYw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Ultra-Web.woff2?domain=easaukraine.com&md5=st0aiBRWsgn677Nq2J5KSg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-Ultra-Web.woff?domain=easaukraine.com&md5=63GCVLXl50tx5Ayc8Hqy8A") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Austin";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-UltraItalic-Web.woff2?domain=easaukraine.com&md5=ShFTU_5Z-arw8uSlRIcpew") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/AustinCy-UltraItalic-Web.woff?domain=easaukraine.com&md5=EarO23xthAWi3jsdgNeyLQ") format("woff");
+  font-style: italic;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Dala Floda";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DalaFlodaCy-Fat-Web.woff2?domain=easaukraine.com&md5=ibRP60P0KQv3tX2GXuspuA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DalaFlodaCy-Fat-Web.woff?domain=easaukraine.com&md5=IeUn4wF5wT7zgSAazB8QLw") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+
+
+@font-face {
+  font-family: "Druk Condensed";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukCondCy-Super-Web.woff2?domain=easaukraine.com&md5=rds4CbX1PUdEqxDfj0n2AA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukCondCy-Super-Web.woff?domain=easaukraine.com&md5=2noGz6mefQjQQaeHI2IY2w") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Druk Condensed";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukXCondCy-Super-Web.woff2?domain=easaukraine.com&md5=TOI-G8EhkHeZQCIkUiIrFw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukXCondCy-Super-Web.woff?domain=easaukraine.com&md5=lfa7XgZAW6bbcbFlAL2TOA") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Druk Wide";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukWideCy-Bold-Web.woff2?domain=easaukraine.com&md5=lBDJeEpmmlPdVhHjqZ3iyQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukWideCy-Bold-Web.woff?domain=easaukraine.com&md5=ZDqvcvID4c9b-i1hWr3tEA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Druk Wide";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukWideCy-Super-Web.woff2?domain=easaukraine.com&md5=ntfSidjf1N1R68bDtxCqow") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/DrukWideCy-Super-Web.woff?domain=easaukraine.com&md5=eGjIGb-4kGdjAanVTro3TQ") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Thin-Web.woff2?domain=easaukraine.com&md5=P5jk-qN47_6oYcJNw0fNPg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Thin-Web.woff?domain=easaukraine.com&md5=JkGJBnms9w8l7SHqeJ_X2w") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Regular-Web.woff2?domain=easaukraine.com&md5=gPG_XikBpDXq6RGLKvXysw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Regular-Web.woff?domain=easaukraine.com&md5=A813nkDychZI0X_u5b33Iw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-RegularItalic-Web.woff2?domain=easaukraine.com&md5=suLEF4wHjXXHopmpL0SBsg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-RegularItalic-Web.woff?domain=easaukraine.com&md5=WJIbJlFEsOtSXCVxHRJw1w") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Medium-Web.woff2?domain=easaukraine.com&md5=8U3bJWOHuXr5xjyeFtrwug") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Medium-Web.woff?domain=easaukraine.com&md5=7wVcgsx6YD24q3z-CHhctg") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Bold-Web.woff2?domain=easaukraine.com&md5=I-gG5G5BkoDaRl8BxpiZTA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Bold-Web.woff?domain=easaukraine.com&md5=8scUqqWbvjyj_hL6ZFCcdw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-BoldItalic-Web.woff2?domain=easaukraine.com&md5=vw2_n7VGzlVVNGeG36wQ0g") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-BoldItalic-Web.woff?domain=easaukraine.com&md5=7jLEgwZXNyNBEvbNqLGgTQ") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Heavy-Web.woff2?domain=easaukraine.com&md5=DUB-mhnAG3Dq-mOZTmPx8g") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Heavy-Web.woff?domain=easaukraine.com&md5=FGESvkBJW0Mx8i9_1pMXpQ") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Giorgio Sans";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Black-Web.woff2?domain=easaukraine.com&md5=P-kXJucNx-Kxb4jcJJCE1g") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GiorgioSansLC-Black-Web.woff?domain=easaukraine.com&md5=CNzHKQnP2OcwmYlKAWFoyw") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Thin-Web.woff2?domain=easaukraine.com&md5=TlvKA4PN1-ehRb0drQELHg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Thin-Web.woff?domain=easaukraine.com&md5=znIF89V2kT8kPQFpWV7oKA") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-ExtraLight-Web.woff2?domain=easaukraine.com&md5=tHhbuY_rfTauM4-CHsMeIQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-ExtraLight-Web.woff?domain=easaukraine.com&md5=J7qxB7hrRrY2ycrjvvmOGQ") format("woff");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Light-Web.woff2?domain=easaukraine.com&md5=buQWb27SR1dgscPdEYVIag") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Light-Web.woff?domain=easaukraine.com&md5=o3q6X1TccggtWCPrkZBIkQ") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Regular-Web.woff2?domain=easaukraine.com&md5=gNpilILYd8hKHJdLckVp0g") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Regular-Web.woff?domain=easaukraine.com&md5=D933aCp3VX-75XbujwM__A") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-RegularItalic-Web.woff2?domain=easaukraine.com&md5=TvrfVXeLi9k7h1ygAqpdlQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-RegularItalic-Web.woff?domain=easaukraine.com&md5=Z5uUa0oGEwzkeazfOxY3Pw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Medium-Web.woff2?domain=easaukraine.com&md5=dYOLW8reyhp9uCxjnmOhSw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Medium-Web.woff?domain=easaukraine.com&md5=bQscyGPmHqpLrf4pqjedvQ") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Medium Italic-Web.woff2?domain=easaukraine.com&md5=mARV37ogr8rb74HnGaodTA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Medium Italic-Web.woff?domain=easaukraine.com&md5=hQz8mMioQXrPNTT2jq-9Jg") format("woff");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Bold-Web.woff2?domain=easaukraine.com&md5=tZDFzKPHielDe4xNV8IVzA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Bold-Web.woff?domain=easaukraine.com&md5=78QlWp8CZsqgcOYa5Lux2Q") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-BoldItalic-Web.woff2?domain=easaukraine.com&md5=fQTmi78D7-akEc3h8kATcQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-BoldItalic-Web.woff?domain=easaukraine.com&md5=nFKfTCkJgqa53HG8Vxdg9w") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Black-Web.woff2?domain=easaukraine.com&md5=BT5DXHqQmfS8meVAcwgttA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Black-Web.woff?domain=easaukraine.com&md5=kBlFocdV8-nY-UeKCEa9JQ") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Graphik";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Super-Web.woff2?domain=easaukraine.com&md5=3mS4PSIVTb5RFYMxNqAY2g") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/GraphikLC-Super-Web.woff?domain=easaukraine.com&md5=fRet_d_AvKb6ZmkdsELJcw") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Kazimir";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Regular.woff2?domain=easaukraine.com&md5=2k6WdaQzdQjh2rKWCFtwJQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Regular.woff?domain=easaukraine.com&md5=Xj3Wmbsdk9UPGjAgEf9WKg") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kazimir";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Medium.woff2?domain=easaukraine.com&md5=mn5xQrsWcxR9O8PVmJ1nKQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Medium.woff?domain=easaukraine.com&md5=5wZ78oIC9wePHYYz9mrk4A") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Kazimir";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Bold.woff2?domain=easaukraine.com&md5=43kJGre9N029fozulGl6OQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Bold.woff?domain=easaukraine.com&md5=9MZEc85tz7Z8y7MmV-v_5Q") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Kazimir";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Black.woff2?domain=easaukraine.com&md5=v2JPrRYs5htULT_AY8Z-3Q") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Kazimir-Web-Black.woff?domain=easaukraine.com&md5=W2sksJuCcb5yc1KtY3tusA") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Hairline_web.woff2?domain=easaukraine.com&md5=qsZgQm5pRqkk9e9lWQf-Kw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Hairline_web.woff?domain=easaukraine.com&md5=0UKFrqZyG1qdTFk6W6aWyg") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Book_web.woff2?domain=easaukraine.com&md5=4FQTSNL68s3VIHKPokwM1g") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Book_web.woff?domain=easaukraine.com&md5=649YhnK3Zj5IloPZ9pWifg") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Regular_web.woff2?domain=easaukraine.com&md5=eW92Vjgf1Edh8P0XxKFfFA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Regular_web.woff?domain=easaukraine.com&md5=6D6zlZDhP9KvC8x9mD4CWg") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kazimir Text";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Bold_web.woff2?domain=easaukraine.com&md5=GPIitDkLXBgBAj1alatwlg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KazimirText-Bold_web.woff?domain=easaukraine.com&md5=aNlQCvIrp68pj_8DyWvDMg") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Karloff Negative";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KarloffNegativePro-Web-Regular.woff2?domain=easaukraine.com&md5=DQQBR365e9rwaCqWTu4HWQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KarloffNegativePro-Web-Regular.woff?domain=easaukraine.com&md5=ZloKRAquBSfDWXFQ-OGrog") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Karloff Negative";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KarloffNegativePro-Web-Bold.woff2?domain=easaukraine.com&md5=ihgjBou5CemOBoiGk415aw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/KarloffNegativePro-Web-Bold.woff?domain=easaukraine.com&md5=dILZ81ycsunPNQfrkqPGSA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Marlene";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/MarleneCy-Web-Light.woff2?domain=easaukraine.com&md5=trDPMlcX3qGex-KSU22VUg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/MarleneCy-Web-Light.woff?domain=easaukraine.com&md5=HKVatMtkzWG2N1TEZpBsWg") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Marlene";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/MarleneCy-Web-Bold.woff2?domain=easaukraine.com&md5=kwuKbGcaEaIxEVrZwsl3ow") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/MarleneCy-Web-Bold.woff?domain=easaukraine.com&md5=6l-H5Dw9hwfNEMrv5kEOmg") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Navigo";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Thin-Web.woff2?domain=easaukraine.com&md5=NUrfDRsdBzyH8DEEDMB25w") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Thin-Web.woff?domain=easaukraine.com&md5=lro-VMf-dHye-UiigNiMZw") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Navigo";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Light-Web.woff2?domain=easaukraine.com&md5=V3S1AC1I5jucF6Z70RHY_w") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Light-Web.woff?domain=easaukraine.com&md5=SISVtnyDXsHiId2kMCWKZg") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Navigo";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Regular-Web.woff2?domain=easaukraine.com&md5=KzFnUhHVY-dwev225oxuqQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Regular-Web.woff?domain=easaukraine.com&md5=vMWMBtHX6hanjfkdE6I_8A") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Navigo";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Bold-Web.woff2?domain=easaukraine.com&md5=-HprkA3z-o0UVtnkYU5iCg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Bold-Web.woff?domain=easaukraine.com&md5=48vOBqr5pA8YjpqtHrf1TA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Navigo";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Black-Web.woff2?domain=easaukraine.com&md5=zzqR_QyYn0JPtzPr11tncw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Navigo-Black-Web.woff?domain=easaukraine.com&md5=rqdzGe7bdHSBXCnnSt97bg") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Nekst";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-Thin-Web.woff2?domain=easaukraine.com&md5=p4cPwd6_rs5TjNxAL0vO7w") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-Thin-Web.woff?domain=easaukraine.com&md5=kydYPaGO22H5pNzfv30gUw") format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Nekst";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-Regular-Web.woff2?domain=easaukraine.com&md5=iT0B1ePhS1PXhhFF0rPW7A") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-Regular-Web.woff?domain=easaukraine.com&md5=J4AZGClNO24qzIOqLtCuWQ") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nekst";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-SemiBold-Web.woff2?domain=easaukraine.com&md5=ct_jMZHIQhac7lsEvkBzUg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-SemiBold-Web.woff?domain=easaukraine.com&md5=GritdZgtuETDg4XmZys6QA") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nekst";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-Black-Web.woff2?domain=easaukraine.com&md5=byAFrcsLFk_Q1PqAHJbANg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Nekst-Black-Web.woff?domain=easaukraine.com&md5=2rUCAoqhodftgdGUKb1quQ") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "NWT Bodoni";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/NWT_Bodoni-Regular-Web.woff2?domain=easaukraine.com&md5=MTpxOHMQoZTmfroplF-TQA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/NWT_Bodoni-Regular-Web.woff?domain=easaukraine.com&md5=HaYrQ2vEO5EwLbWzk888jw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NWT Bodoni";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/NWT_Bodoni-Italic-Web.woff2?domain=easaukraine.com&md5=6GHckg-MRwxnWtzIlYUDTQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/NWT_Bodoni-Italic-Web.woff?domain=easaukraine.com&md5=U-JLPPFzDVOIGqqZ3Fmmcg") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NWT Bodoni";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/NWT_Bodoni-Bold-Web.woff2?domain=easaukraine.com&md5=6Jb8Qc7CWnarZUchTIHHRg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/NWT_Bodoni-Bold-Web.woff?domain=easaukraine.com&md5=qHaTSvYQCqVvgxYLvJczQg") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Parmigiano Text Pro";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Parmigiano_Text_Pro-Regular-Web.woff2?domain=easaukraine.com&md5=obFfWDu5TSywvmDvEnTjcg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Parmigiano_Text_Pro-Regular-Web.woff?domain=easaukraine.com&md5=gz3Egxaf6HKsbcDLNbutbg") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Parmigiano Text Pro";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Parmigiano_Text_Pro-Black-Web.woff2?domain=easaukraine.com&md5=oqQwSllhjUG7GEqf8JoOtQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Parmigiano_Text_Pro-Black-Web.woff?domain=easaukraine.com&md5=576w6qWtCfXVNvp2mIRIoQ") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: "Proto Grotesk";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-ExtraLight-Web.woff2?domain=easaukraine.com&md5=seV5EOlQSPyajy94FGmaEA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-ExtraLight-Web.woff?domain=easaukraine.com&md5=kRcrwUnHhhRwt6baazWnCg") format("woff");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Proto Grotesk";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-Light-Web.woff2?domain=easaukraine.com&md5=F3JHp20p4TdizRTNdEr2pQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-Light-Web.woff?domain=easaukraine.com&md5=3t9DJ0xwPCyzxJ6VWyxxmg") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Proto Grotesk";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-Regular-Web.woff2?domain=easaukraine.com&md5=uvEFj-gPst3ICq4u323XVA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-Regular-Web.woff?domain=easaukraine.com&md5=KLVlCH_O2o8UWGMCdQVJNA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Proto Grotesk";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-Bold-Web.woff2?domain=easaukraine.com&md5=SgWjhTm0n90ePU46Bf4VHQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Proto_Grotesk-Bold-Web.woff?domain=easaukraine.com&md5=kxQ5nLGhj7YArFeKZ4pPCw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Spektra";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Spektra-Variable-Web.woff2?domain=easaukraine.com&md5=imblwCMa6EuU5IHtsWo4Aw") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "Sauber Script";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Sauber_Script-SauberScript-Web.woff2?domain=easaukraine.com&md5=hIbf2Pcj9pVdX8dNUWZBlQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/Sauber_Script-SauberScript-Web.woff?domain=easaukraine.com&md5=k3rj2Nu434HEVPIgUJV0Rw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: "Stratos";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Light.woff2?domain=easaukraine.com&md5=v8EQQl1lDVA8LzCckoBGUg") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Light.woff?domain=easaukraine.com&md5=mvk3sJ4JxxaYepqPzlrLlQ") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Regular.woff2?domain=easaukraine.com&md5=9Iac7SM-Di7t9v0wZWorog") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Regular.woff?domain=easaukraine.com&md5=uxRGP25UNJ4K0CbhvuDqSw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Italic.woff2?domain=easaukraine.com&md5=spM3OCkt9t0chjp45qNvCw") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Italic.woff?domain=easaukraine.com&md5=6xZApKsTH83pzvkwWvDltw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Medium.woff2?domain=easaukraine.com&md5=CsbkWY4D2Jwugb1W7vhTiQ") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Medium.woff?domain=easaukraine.com&md5=a9m5Adp4HNcb_9HzGqUngw") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Stratos";
+  src:  url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Bold.woff2?domain=easaukraine.com&md5=iLfDvmOpHWXI0pP2d_6pPA") format("woff2"),
+        url("/web/20220315181246im_/https://easaukraine.com/fonts/typetoday/StratosLC-Web-Bold.woff?domain=easaukraine.com&md5=FFXu-ndNj-BIRPqxOgOTeg") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+/*
+     FILE ARCHIVED ON 18:12:46 Mar 15, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:08:55 Feb 08, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.069
+  cdx.remote: 0.106
+  esindex: 0.021
+  LoadShardBlock: 141.032 (6)
+  PetaboxLoader3.datanode: 111.116 (7)
+  PetaboxLoader3.resolve: 91.108 (2)
+  load_resource: 98.674
+*/

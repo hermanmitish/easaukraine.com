@@ -1,0 +1,392 @@
+
+
+@font-face {
+  font-family: "Apres RE";
+  src: url("/fonts/webtype/Apres RE Bold Italic/6383064c-e2b2-4134-88c1-e7ac21ef9fc9-3.woff?domain=easaukraine.com&md5=I5SzuA-GGnPkysc3EOBjJQ") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Apres RE";
+  src: url("/fonts/webtype/Apres RE Bold/f478e9c3-cefa-4e94-a4e5-74da239db4ea-3.woff?domain=easaukraine.com&md5=e131Tx5g5VsU3fzq9bPozw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Apres RE";
+  src: url("/fonts/webtype/Apres RE Italic/5a1b985d-0872-4597-a257-52ae563a1bdd-3.woff?domain=easaukraine.com&md5=RsWa851V3RIBA_DMo5Tu1A") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Apres RE";
+  src: url("/fonts/webtype/Apres RE/66f729fd-33ee-4b0f-99ac-6bc5135ae9f7-3.woff?domain=easaukraine.com&md5=Ykv5FOfHlOhC_4LsDUh3JA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Benton Modern RE";
+  src: url("/fonts/webtype/Benton Modern RE Bold Italic/2eabbeb7-4840-4ebb-a3a2-a485992841ef-3.woff?domain=easaukraine.com&md5=S2XBB_MO4K7KHUqnc5bUjg") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Benton Modern RE";
+  src: url("/fonts/webtype/Benton Modern RE Bold/a233eaae-4f83-4aab-9c35-38eac98ae2cc-3.woff?domain=easaukraine.com&md5=zSC2jVK1IgnuGUvcqaJp8A") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Benton Modern RE";
+  src: url("/fonts/webtype/Benton Modern RE Italic/e97a8878-d6be-4951-a3c6-ff1b766d3f70-3.woff?domain=easaukraine.com&md5=teHbFFgCeslrDdDQt8cGnQ") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Benton Modern RE";
+  src: url("/fonts/webtype/Benton Modern RE/2984fb9b-6c72-41f0-a358-32fb379b2232-3.woff?domain=easaukraine.com&md5=jWMW8qEvCZT-7anDcAJfKA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Benton Sans RE";
+  src: url("/fonts/webtype/Benton Sans RE Bold Italic/87e29d42-48a1-4a0d-9d43-95ce7c2284b7-3.woff?domain=easaukraine.com&md5=OdZHHW4y4KN37rQkIN8pkA") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Benton Sans RE";
+  src: url("/fonts/webtype/Benton Sans RE Bold/01ed1cc1-9b10-4914-9aaa-afea3c0d3ccd-3.woff?domain=easaukraine.com&md5=MtVPXvYdnGeb_aPw3ClRJA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Benton Sans RE";
+  src: url("/fonts/webtype/Benton Sans RE Italic/a3baae5f-4139-45a9-9d59-e4c9e1893e59-3.woff?domain=easaukraine.com&md5=pQav4C-x-kwoR61ZCy0Xpg") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Benton Sans RE";
+  src: url("/fonts/webtype/Benton Sans RE/a7a80614-0ca2-420b-a3dc-e95d7e14f427-3.woff?domain=easaukraine.com&md5=BZ-mOC147Dq-bboFX-V7CA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Calibri";
+  src: url("/fonts/webtype/Calibri Bold/41418c54-7f7b-4fad-a2f7-78928bf2ed62-3.woff?domain=easaukraine.com&md5=I6lbvEq6E4B4F3aJnU_x1w") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Calibri";
+  src: url("/fonts/webtype/Calibri Italic/11ddc6dd-5e04-4c86-a918-6503074fe8fa-3.woff?domain=easaukraine.com&md5=54ZtTvOBzUD28lwUOKI62w") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Calibri";
+  src: url("/fonts/webtype/Calibri/a16c9232-210e-4c6f-9129-53bdf5261037-3.woff?domain=easaukraine.com&md5=UQLxa9FTwODMlUQmyk7crw") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Farnham Display";
+  src: url("/fonts/webtype/Farnham Display Light Italic/e3b1bde8-22d2-4f6d-be48-7d0ae7f247a5-3.woff?domain=easaukraine.com&md5=-ma-83Q67Vt8EzQQRtPn0A") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Farnham Display";
+  src: url("/fonts/webtype/Farnham Display Light/29b09fee-d041-4e9a-90d0-42dd3b238d8c-3.woff?domain=easaukraine.com&md5=_TqpXEdTMhRzWrlwInC9Hg") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Farnham Text";
+  src: url("/fonts/webtype/Farnham Text Bold Italic/870dc489-9199-4d8d-b0e5-a0fe901b500f-3.woff?domain=easaukraine.com&md5=w2iAfeRghqF5SntABhubhw") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Farnham Text";
+  src: url("/fonts/webtype/Farnham Text Bold/2f3bf92d-3069-450a-a2ea-f0dadb212b44-3.woff?domain=easaukraine.com&md5=Wb2_WkaNFH0VCPWGKRY6zQ") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Farnham Text";
+  src: url("/fonts/webtype/Farnham Text Regular Italic/481a9fbd-75a7-4971-953e-0a280359c90d-3.woff?domain=easaukraine.com&md5=AgaRS_fp5xTsyTjdY7TKfw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Farnham Text";
+  src: url("/fonts/webtype/Farnham Text Regular/59cfb526-014b-4b7f-993c-291b44b52586-3.woff?domain=easaukraine.com&md5=23yalByN8tQugg2wAzQADQ") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Freight Big";
+  src: url("/fonts/webtype/Freight Big Black/4751a28a-f4f2-4de1-aedf-3b826a700f5e-3.woff?domain=easaukraine.com&md5=oNMaHS8o7k0Wy6o-r8oaYA") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Freight Big";
+  src: url("/fonts/webtype/Freight Big Bold/458fee5b-f1f0-44c8-b928-4f02c01a6039-3.woff?domain=easaukraine.com&md5=5piQR1W9XC5uY5dzVARDsQ") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Freight Big";
+  src: url("/fonts/webtype/Freight Big Medium/f517783b-941e-44fe-98cf-eb6356ce3eb6-3.woff?domain=easaukraine.com&md5=NfYf5n8OKqg5e5_mfjfDBQ") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro Black/4ec59c91-f66b-4751-8456-e114e9e14673-3.woff?domain=easaukraine.com&md5=Llgyo7BXOxvmSICK1qbHsg") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro Bold Italic/6f283590-c3c2-416a-95c2-ca67d04aa929-3.woff?domain=easaukraine.com&md5=sPseQEhQ7A7lXlmGKfYXbQ") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro Bold/6f633c58-c751-4d08-9cea-2b27f74f37de-3.woff?domain=easaukraine.com&md5=kSJoIY90deIE0DQU41Y4Xw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro Italic/e3bc0ad4-bdaa-4467-82a0-d90f697b7266-3.woff?domain=easaukraine.com&md5=Piyk--oK3cbwPkkkOcNDKw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro SemiBold Italic/0e025df5-ba54-4bbb-84b4-c5b337a5b55b-3.woff?domain=easaukraine.com&md5=biAF-SNzKI95pSZkdkvNxQ") format("woff");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro SemiBold/60fe12ce-0223-4a9a-8e5c-b3e7bd381bc4-3.woff?domain=easaukraine.com&md5=bR-gTGVQSOBKpXA-29PXtQ") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Georgia Pro";
+  src: url("/fonts/webtype/Georgia Pro/b97bef32-c0cb-4ad3-b724-1204d229731c-3.woff?domain=easaukraine.com&md5=Pci3vZ8eZmJ64NeydrE7QA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url("/fonts/webtype/Gill Sans Bold/73cdb885-dbc4-40e1-b944-19e38ee15606-3.woff?domain=easaukraine.com&md5=KRjl-Pl9iFaQkkwS7M6zXA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url("/fonts/webtype/Gill Sans Italic/2bdfa749-1350-4060-b7b7-9c747821f2e4-3.woff?domain=easaukraine.com&md5=PNcqgZA4KyCljawoS8c8yQ") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url("/fonts/webtype/Gill Sans Light/4f8ac960-65b1-4180-89d8-3273c373aa98-3.woff?domain=easaukraine.com&md5=-0FrME2wTB4Mvaxg0AMEwA") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url("/fonts/webtype/Gill Sans/7d59e5c7-3259-4c0f-9aa2-a4f510dfc7b5-3.woff?domain=easaukraine.com&md5=Avf2j--AvModCSVpSPkpig") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "News Gothic";
+  src: url("/fonts/webtype/News Gothic Bold Italic/c6f4e54e-1d69-4559-b813-e2fc4ff29160-3.woff?domain=easaukraine.com&md5=lWQsbajEQV1oM6ZNvZ9eyw") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "News Gothic";
+  src: url("/fonts/webtype/News Gothic Bold/9aab62b7-bc6f-405a-ad75-227bcf89d9dc-3.woff?domain=easaukraine.com&md5=Ml5LWuyxWR0Wk1Jq_Ij1yA") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "News Gothic";
+  src: url("/fonts/webtype/News Gothic Italic/6327ba72-bfd5-4038-9658-e3a4a95a5c98-3.woff?domain=easaukraine.com&md5=nMCG_jymqpyaEC7Y4elhdw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "News Gothic";
+  src: url("/fonts/webtype/News Gothic/915b0ec4-cd16-40de-883e-1d77c3d07840-3.woff?domain=easaukraine.com&md5=3lXE3Niw0VuDXvXKLgSEUA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nitti";
+  src: url("/fonts/webtype/Nitti Light Italic/15aba0ec-4ceb-49e2-985c-a95134a60aed-3.woff?domain=easaukraine.com&md5=pNeMTaUqomJ2DZ26PhhKfg") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Nitti";
+  src: url("/fonts/webtype/Nitti Light/6fd7c5e9-3131-4cb6-a99e-da74343b1253-3.woff?domain=easaukraine.com&md5=06ikqkL48upIsDsm2aHJyg") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Nitti";
+  src: url("/fonts/webtype/Nitti Medium/9054f262-2d2d-480f-9360-4560f110243b-3.woff?domain=easaukraine.com&md5=lA-7CCNC-po4VhsR9DEcHA") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Nobel";
+  src: url("/fonts/webtype/Nobel Bold/2ef991dd-b42f-4be2-823a-0c299092e54c-3.woff?domain=easaukraine.com&md5=FMuzgRNIEpzhaR-SN6Wz5g") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nobel";
+  src: url("/fonts/webtype/Nobel Book Italic/3bbf92ec-da3f-46ee-9a44-9a24a0e50d65-3.woff?domain=easaukraine.com&md5=tol_h-BAno5SgAArkRwOEg") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Nobel";
+  src: url("/fonts/webtype/Nobel Book/33f41f0b-1cb3-4fe4-b692-684b0154030b-3.woff?domain=easaukraine.com&md5=lmtTgZsjcVtKkBXtBNDw-A") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Nobel";
+  src: url("/fonts/webtype/Nobel Light/b78bdfba-7002-4c64-8f9a-48f36d5f020b-3.woff?domain=easaukraine.com&md5=cu466Gf5-UlwL7CsyqA3Mw") format("woff");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Nobel";
+  src: url("/fonts/webtype/Nobel Regular Italic/edfe2aac-e541-42cd-ad3a-f51b843f4f92-3.woff?domain=easaukraine.com&md5=w98ro0KV-rXdTIfrTg8-0Q") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Nobel";
+  src: url("/fonts/webtype/Nobel Regular/a9613c98-73bc-4667-b826-f27e36e923e6-3.woff?domain=easaukraine.com&md5=v6at6C1j-L8A1LxnoeUPKA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Parkinson";
+  src: url("/fonts/webtype/Parkinson Bold/7a136c73-6813-4dfb-aa8e-f67c9a3ad3f2-3.woff?domain=easaukraine.com&md5=SKyBiieU8N3VwXoISWX7Mw") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Parkinson";
+  src: url("/fonts/webtype/Parkinson Italic/22b230a3-1384-4afe-aeb3-36464be50fcf-3.woff?domain=easaukraine.com&md5=zzWjjLjjmPreovY1QwMR2Q") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Parkinson";
+  src: url("/fonts/webtype/Parkinson Medium/9627f153-c538-4fbf-a965-c7a0536ccc48-3.woff?domain=easaukraine.com&md5=eN0psMwbH6wUtB6tIqvZaA") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Parkinson";
+  src: url("/fonts/webtype/Parkinson Roman/7fa7f7be-ba0e-4224-ae4f-86feb42146e1-3.woff?domain=easaukraine.com&md5=y6Pswr-PRllovvO8i9BWSA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Scout RE";
+  src: url("/fonts/webtype/Scout RE Bold Italic/e3780a27-f942-4591-8fe3-1a71ce597542-3.woff?domain=easaukraine.com&md5=3WzApsSSWrpZFnwKsxV_Og") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Scout RE";
+  src: url("/fonts/webtype/Scout RE Bold/9fc0c6a1-7004-43b7-b783-b46abfc80806-3.woff?domain=easaukraine.com&md5=oxU3lUflQMjiH4xYGz5n4A") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Scout RE";
+  src: url("/fonts/webtype/Scout RE Italic/a97cee1b-5072-41eb-aac0-a57d7d965ec1-3.woff?domain=easaukraine.com&md5=XVz5ytQgLjmQrA0vhR9kuQ") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Scout RE";
+  src: url("/fonts/webtype/Scout RE Regular/c10afb5f-f1d0-4ccf-afc7-c9157a049b95-3.woff?domain=easaukraine.com&md5=m94OK_aMyOjYEv3vPIGsGA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Sweet Sans";
+  src: url("/fonts/webtype/Sweet Sans Bold/4d682500-7e02-4051-a9c2-7f010a2d29e8-3.woff?domain=easaukraine.com&md5=Tv1FLLiV5bE_ymv7Ktx0rQ") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Sweet Sans";
+  src: url("/fonts/webtype/Sweet Sans Italic/19c66a97-8543-48ae-ba5c-f145c7ec7b3c-3.woff?domain=easaukraine.com&md5=k86MUxvFhAAyS81kJIsgQw") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Sweet Sans";
+  src: url("/fonts/webtype/Sweet Sans Light/0e2a8d3d-ebcf-4fff-a35d-14dd23b5a251-3.woff?domain=easaukraine.com&md5=4TIfrzRPyDf9NbxTQ5qUbQ") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Sweet Sans";
+  src: url("/fonts/webtype/Sweet Sans Medium/8870f297-40c2-4b84-8756-6aa59ca1f044-3.woff?domain=easaukraine.com&md5=wtsmKtDEovx37kUgJopJ0g") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Sweet Sans";
+  src: url("/fonts/webtype/Sweet Sans Regular/c6c92954-0e07-4154-9c70-2785a024f048-3.woff?domain=easaukraine.com&md5=pXxkyBAViMrHzX2287lv0w") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Telefon";
+  src: url("/fonts/webtype/Telefon Bold/6a307a8f-794b-4041-b7aa-5e377ce57833-3.woff?domain=easaukraine.com&md5=nxu0Zc2LrYEyZtB0jinw-Q") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Telefon";
+  src: url("/fonts/webtype/Telefon Normal/7e575bd2-d2f6-47d0-9126-357877b7cab5-3.woff?domain=easaukraine.com&md5=A_nXE_SDSrEmS8T1rVe07g") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Trio Grotesk";
+  src: url("/fonts/webtype/Trio Grotesk Medium/54e84ee0-5a3a-4c02-b20b-e75a529ed2e8-3.woff?domain=easaukraine.com&md5=vuE9pe_0w9TrmkVnnJI6Kw") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Trio Grotesk";
+  src: url("/fonts/webtype/Trio Grotesk Normal/71723d6c-bc35-4e6c-9171-0f91cd88c8d0-3.woff?domain=easaukraine.com&md5=b5EFBjBZxMzvlPPwfroMhA") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
