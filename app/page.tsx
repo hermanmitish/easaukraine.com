@@ -70,7 +70,7 @@ export default function Home() {
       {/* Main two-column section */}
       <div className="max-w-3xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10">
-          {/* LEFT: About */}
+          {/* LEFT: About + Carousel 1 */}
           <div className="space-y-4 text-sm leading-relaxed">
             <p>
               <strong>EASA Ukraine</strong> is a non-profit independent
@@ -136,9 +136,20 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            <Slideshow slides={easa2021Slides} />
+            <div className="flex justify-center pt-16">
+              <Image
+                src="/images/easa-logo.gif"
+                alt="EASA"
+                width={185}
+                height={155}
+                unoptimized
+                className="opacity-80 "
+              />
+            </div>
           </div>
 
-          {/* RIGHT: SESAM 2021 */}
+          {/* RIGHT: SESAM 2021 + EASA logo + Carousel 2 */}
           <div>
             <a
               href="https://sesam2021ukraine.com/"
@@ -226,24 +237,9 @@ export default function Home() {
                 2021.
               </p>
             </div>
-          </div>
-        </div>
-
-        {/* Slideshows */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10 mt-14">
-          <Slideshow slides={easa2021Slides} />
-          <div className="flex flex-col justify-between gap-6">
-            <div className="flex justify-center">
-              <Image
-                src="/images/easa-logo.gif"
-                alt="EASA"
-                width={185}
-                height={155}
-                unoptimized
-                className="opacity-80"
-              />
+            <div className="flex flex-col gap-6 mt-4">
+              <Slideshow slides={easaAssemblySlides} />
             </div>
-            <Slideshow slides={easaAssemblySlides} />
           </div>
         </div>
 

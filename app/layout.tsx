@@ -34,6 +34,20 @@ export const metadata: Metadata = {
     siteName: 'EASA Ukraine',
     type: 'website',
   },
+  icons: {
+    icon: [
+      { url: '/icons/icon-57.png', sizes: '57x57' },
+      { url: '/icons/icon-72.png', sizes: '72x72' },
+      { url: '/icons/icon-114.png', sizes: '114x114' },
+      { url: '/icons/icon-144.png', sizes: '144x144' },
+    ],
+    apple: [
+      { url: '/icons/icon-57.png', sizes: '57x57' },
+      { url: '/icons/icon-72.png', sizes: '72x72' },
+      { url: '/icons/icon-114.png', sizes: '114x114' },
+      { url: '/icons/icon-144.png', sizes: '144x144' },
+    ],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
