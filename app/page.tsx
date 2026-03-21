@@ -54,7 +54,7 @@ const easaAssemblySlides = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-black font-sans">
+    <main className="min-h-screen bg-white text-black font-body">
       {/* Hero */}
       <section className="flex justify-center pt-12 pb-14">
         <Image
@@ -146,12 +146,12 @@ export default function Home() {
               rel="noopener noreferrer"
               className="block mb-6 hover:opacity-80 transition-opacity"
             >
-              <h2 className="text-5xl font-bold leading-none tracking-tight">
-                SESAM 2021
-              </h2>
-              <h2 className="text-5xl font-bold leading-none tracking-tight">
-                POLIKLINIKA
-              </h2>
+              <Image
+                src="/images/SESAM POLIKLINIKA.png"
+                alt="SESAM 2021 POLIKLINIKA"
+                width={987}
+                height={340}
+              />
             </a>
 
             <div className="flex flex-col items-start gap-4 mb-5">

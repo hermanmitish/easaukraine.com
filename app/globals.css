@@ -10,5 +10,6 @@
   body {
     background-color: #ffffff;
     color: #000000;
+    font-family: var(--font-graphik), system-ui, sans-serif;
   }
 }
