@@ -152,9 +152,7 @@ export default function Home() {
           {/* RIGHT: SESAM 2021 + EASA logo + Carousel 2 */}
           <div>
             <a
-              href="https://sesam2021ukraine.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/sesam"
               className="block mb-6 hover:opacity-80 transition-opacity"
             >
               <Image
@@ -167,9 +165,7 @@ export default function Home() {
 
             <div className="flex flex-col items-start gap-4 mb-5">
               <a
-                href="https://sesam2021ukraine.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/sesam"
               >
                 <Image
                   src="/images/sesam-logo.gif"
@@ -195,9 +191,7 @@ export default function Home() {
                 <p>
                   Each cycle will consist of around five{" "}
                   <a
-                    href="https://sesam2021ukraine.com/workshops/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/sesam"
                     className="underline hover:no-underline"
                   >
                     WORKSHOPS
