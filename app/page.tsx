@@ -121,7 +121,7 @@ export default function Home() {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/easaukraine/"
+                  href="https://www.instagram.com/easa_ukraine/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="opacity-70 hover:opacity-100 transition-opacity"
@@ -261,6 +261,11 @@ export default function Home() {
                 className="underline hover:no-underline"
               >
                 easanetwork.org
+              </a>
+            </p>
+            <p>
+              <a href="/about" className="underline hover:no-underline">
+                Як влаштована EASA Ukraine →
               </a>
             </p>
           </div>
